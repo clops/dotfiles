@@ -15,8 +15,12 @@ alias g="git"
 alias h="history"
 alias j="jobs"
 alias ud="du -sh *"
+
+# TAR Shortcuts
 alias x="tar -zxvf"
 alias c="tar -zcvf"
+
+# Better Tail
 alias watch="tail -f"
 
 # Detect which `ls` flavor is in use
