@@ -14,6 +14,10 @@ alias p="cd ~/projects"
 alias g="git"
 alias h="history"
 alias j="jobs"
+alias ud="du -sh *"
+alias x="tar -zxvf"
+alias c="tar -zcvf"
+alias watch="tail -f"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
