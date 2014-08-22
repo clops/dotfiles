@@ -57,6 +57,12 @@
 	# List contributors with number of commits
 	contributors = shortlog --summary --numbered
 
+	# List all My Commits
+	mycommits = "!f() { log --pretty=format:'%C(yellow)%h  %Cblue%ad  %Creset%s%Cgreen  [%cn] %Cred%d' --decorate --date=short --author=\"$(git config user.name)\" } f"
+
+	# List all unpushed changes
+	unpushed = "!f() { log --pretty=format:'%C(yellow)%h  %Cblue%ad  %Creset%s%Cgreen  [%cn] %Cred%d' --decorate --date=short --author=\"$(git config user.name)\" } f"
+
 [apply]
 
 	# Detect whitespace errors when applying a patch
